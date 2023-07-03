@@ -14,3 +14,4 @@ const items = ingredients.map(ingredient => {
   li.textContent = ingredient
   return li 
 })
+list.append(...items)
